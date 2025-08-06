@@ -54,7 +54,7 @@ class SecuritySystemApp:
         self.last_alert_time = 0
         self.target_alert_time = 0
         self.weapon_alert_time = 0
-        self.trespassing_alert_time = 0  # Added for trespassing alert cooldown
+        self.trespassing_alert_time = 0
         self.alert_cooldown = 5
         self.cap = None
         self.video_capture = None
