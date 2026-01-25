@@ -1,7 +1,7 @@
 # 🚉 Smart Railway Surveillance System
 
 An AI-powered surveillance system for enhancing safety and security at railway stations.
-This project integrates face recognition, weapon detection, trespassing detection, and a unified system with a Tkinter UI and Flask API alerts.
+This project integrates face recognition, weapon detection, trespassing detection, and a unified system with a Tkinter UI and Fast API alerts.
 
 # 🔍 Features
 
@@ -25,7 +25,7 @@ This project integrates face recognition, weapon detection, trespassing detectio
 
 ### 📢 Alert System
 
-- #### Flask API provides real-time alerting.
+- #### Fast API provides real-time alerting.
 
 
 ### 🖥️ User Interface (Tkinter)
@@ -47,7 +47,7 @@ cd Smart-Railway-Surveillance-System
 ```bash
 pip install -r requirements.txt
 ```
-### 3️⃣ Run the Flask API:
+### 3️⃣ Run the Fast API:
 ```bash
 python api.py
 ```
